@@ -390,7 +390,7 @@ form {
 .pl-80 {
   padding-left: 80px !important;
 }
-.recycle .accordion-button:not(.collapsed){
+.recycle .accordion-button:not(.collapsed) {
   padding-bottom: 12px !important;
   background: transparent !important;
   box-shadow: none !important;
@@ -420,7 +420,7 @@ button:not(:disabled) {
     --fs-lg: 24px;
     --fs-xl: 40px;
     --fs-2xl: 45px;
-    --fs-3xl: 50px;
+    --fs-3xl: 55px;
   }
   .max-w-sm-180 {
     max-width: 180px;
