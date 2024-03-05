@@ -9,7 +9,7 @@ const Herosec = () => {
     document.body.classList.remove("overflow_hidden");
   }
   return (
-    <nav className="bg-nav py-13 position-relative z-3">
+    <nav className="bg-nav py-3 position-relative z-3">
       <div className="container">
         <div className=" d-flex align-items-center justify-content-between">
           <img src={logo} alt="Logo" className=" cursor-pointer" />

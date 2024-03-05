@@ -21,7 +21,7 @@
   --fs-lg: 20px;
   --fs-xl: 32px;
   --fs-2xl: 39px;
-  --fs-3xl: 39px !important;
+  --fs-3xl: 39px;
   /* ===== colors ===== */
   --bs-white: #ffffff;
   --bs-lightwhite: #cfe5f0;
@@ -86,7 +86,7 @@
   color: var(--bs-white);
 }
 .col-blue {
-  color: var(--bs-blue);
+  color: var(--bs-blue) !important;
 }
 .col-black {
   color: var(--bs-baseblack) !important;
@@ -95,23 +95,11 @@
   color: var(--bs-yellow);
 }
 /* =====max-width===== */
-.max-w-448 {
-  max-width: 448px;
-}
 .max-w-150 {
   max-width: 150px;
 }
 .max-w-471 {
   max-width: 471px;
-}
-.max-w-675 {
-  max-width: 675px;
-}
-.max-w-503 {
-  max-width: 503px;
-}
-.max-w-345 {
-  max-width: 345px;
 }
 .max-w-483 {
   max-width: 483px;
@@ -123,33 +111,14 @@
   max-width: 758px !important;
 }
 /* ===== paddings ====== */
-.py-13 {
-  padding-top: 13px;
-  padding-bottom: 13px;
-}
-.pl-20 {
-  padding-left: 20px;
-}
 .px-32 {
   padding-left: 32px;
   padding-right: 32px;
-}
-.py-15 {
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-.pt-28 {
-  padding-top: 28px;
 }
 .py-70 {
   padding-top: 70px;
   padding-bottom: 70px;
 }
-.py-14 {
-  padding-top: 14px;
-  padding-bottom: 14px;
-}
-
 /* =====subscribe-form===== */
 .outline-none {
   outline: none;
@@ -499,9 +468,6 @@ button:not(:disabled) {
   }
   .pt-md-20 {
     padding-top: 20px !important;
-  }
-  .pt-md-44 {
-    padding-top: 44px;
   }
   .pt-md-65 {
     padding-top: 65px !important;

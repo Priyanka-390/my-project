@@ -24,7 +24,7 @@ const Subscribe = () => {
           Subscribe to our newsletter for the latest news, offers, and eco-tips.
         </p>
         <form
-          className="d-flex justify-content-between pl-20"
+          className="d-flex justify-content-between ps-3"
           data-aos="zoom-in-down"
         >
           <input
@@ -36,7 +36,7 @@ const Subscribe = () => {
             <input
               type="button"
               value="Join"
-              className="bg-white col-blue fs-16 ff-outfit lh-24 fw-semibold ms-2 border-none br-10 px-32 py-15"
+              className="bg-white col-blue fs-16 ff-outfit lh-24 fw-semibold ms-2 border-none br-10 px-32 py-3"
             />
           </div>
         </form>

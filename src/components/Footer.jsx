@@ -16,7 +16,7 @@ const Footer = () => {
                 alt="logo"
                 className="mb-3 cursor-pointer"
               />
-              <p className="ff-outfit col-lightwhite fs-16 lh-24 fw-normal max-w-345  mb-0">
+              <p className="ff-outfit col-lightwhite fs-16 lh-24 fw-normal  mb-0">
                 Cloopp revolutionizes recycling for everyone. <span className="d-md-block">Join, earn, and
                 support sustainability.</span> 
               </p>
@@ -130,7 +130,7 @@ const Footer = () => {
         </div>
         <div className="footline"></div>
         <div className="container">
-          <p className="col-lightwhite ff-outfit fs-14  lh-15 fw-normal mb-0 text-center py-14">
+          <p className="col-lightwhite ff-outfit fs-14  lh-15 fw-normal mb-0 text-center py-3">
             © {year} Cloopp
           </p>
         </div>

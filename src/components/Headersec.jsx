@@ -19,9 +19,9 @@ const Headersec = () => {
                 with Cloopp
               </span>
             </h1>
-            <p className="fs-16 col-lightwhite text-lg-start text-center mx-auto mx-lg-0 pt-lg-3 pt-sm-2 pt-1 pb-0 ff-outfit lh-24 fw-normal max-w-448">
-              Get exclusive discounts and coupons from the hottest brands every
-              time you recycle and track your environmental impact with the
+            <p className="fs-16 col-lightwhite text-lg-start text-center mx-auto mx-lg-0 pt-lg-3 pt-sm-2 pt-1 pb-0 ff-outfit lh-24 fw-normal">
+              Get exclusive discounts and coupons from the hottest brands <span className=" d-md-block">every
+              time you recycle and track your environmental impact</span>  with the
               Cloopp App.
             </p>
             <div className="d-flex justify-content-lg-start justify-content-center gap-sm-3 gap-1 pt-lg-28 pt-md-20 pt-sm-3 pt-2">
