@@ -31,9 +31,7 @@ function App() {
   return (
     <div>
       {data ? (
-        <div>
-          <Preloader />
-        </div>
+        <div>{ <Preloader /> }</div>
       ) : (
         <div className="App">
           <div className="bg-bluebg d-flex flex-column min-vh-100">

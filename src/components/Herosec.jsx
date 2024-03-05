@@ -16,7 +16,7 @@ const Herosec = () => {
           <ul className={`${show ? "left_100" : "left_0"} nav_bar`}>
             <li onClick={() => setshow(!show)}>
               <a
-                className=" col-lightwhite ff-outfit fs-16 list-unstyled text-decoration-none fw-normal lh-17  nav_line position-relative"
+                className=" col-lightwhite ff-outfit fs-16 navhover list-unstyled text-decoration-none fw-normal lh-17  nav_line position-relative"
                 href="#how"
               >
                 How It Works
@@ -24,7 +24,7 @@ const Herosec = () => {
             </li>
             <li onClick={() => setshow(!show)}>
               <a
-                className=" col-lightwhite ff-outfit fs-16 fw-normal lh-17 text-decoration-none nav_line position-relative"
+                className=" col-lightwhite ff-outfit navhover fs-16 fw-normal lh-17 text-decoration-none nav_line position-relative"
                 href="#brand"
               >
                 For Brands
@@ -32,7 +32,7 @@ const Herosec = () => {
             </li>
             <li onClick={() => setshow(!show)}>
               <a
-                className=" col-lightwhite ff-outfit fs-16 fw-normal text-decoration-none lh-17 nav_line position-relative"
+                className=" col-lightwhite ff-outfit fs-16 navhover fw-normal text-decoration-none lh-17 nav_line position-relative"
                 href="#about"
               >
                 About Us
@@ -40,7 +40,7 @@ const Herosec = () => {
             </li>
             <li onClick={() => setshow(!show)}>
               <a
-                className=" col-lightwhite ff-outfit fs-16 fw-normal lh-17  text-decoration-none nav_line position-relative"
+                className=" col-lightwhite ff-outfit fs-16 fw-normal navhover lh-17  text-decoration-none nav_line position-relative"
                 href="#Faq"
               >
                 Careers

@@ -12,10 +12,10 @@ const Headersec = () => {
     <div className="d-flex z-1 position-relative pt-lg-5 pt-md-4 pt-2 overflow-x-clip justify-content-center align-items-center overflow-x-clip flex-grow-1">
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-lg-7 col-12 pb-md-5 pb-3" data-aos="fade-right">
-            <h1 className="ff-outfit text-lg-start text-center mx-auto mx-lg-0 max-w-616 fs-80 lh-100 col-white fw-semibold">
-              Recycle.Reward.{" "}
-              <span className="fw-normal lh-83 fs-64 ff-rainbow">
+          <div className="col-xl-7 col-lg-6 col-12 pb-md-5 pb-3" data-aos="fade-right">
+            <h1 className="ff-outfit text-lg-start text-center mx-auto mx-lg-0  fs-80 lh-100 col-white fw-semibold">
+              Recycle.Reward.
+              <span className="fw-normal d-block lh-83 fs-64 ff-rainbow">
                 with Cloopp
               </span>
             </h1>
@@ -42,7 +42,7 @@ const Headersec = () => {
             </div>
           </div>
           <div
-            className="col-lg-5 col-12 pb-md-4 pt-lg-0 pt-4"
+            className="col-xl-5 col-lg-6 col-12 pt-xxl-3 pt-lg-0 pb-md-4  pt-4"
             data-aos="fade-left"
           >
             <img src={headimg} alt="img" className="w-xl-full" />

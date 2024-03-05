@@ -13,13 +13,13 @@ const Subscribe = () => {
       <div className="container">
         <h2
           data-aos="zoom-in-down"
-          className="text-center mx-auto mb-0 ff-outfit col-white fs-52 lh-62 fw-semibold"
+          className="text-center  mb-0 ff-outfit col-white fs-52 lh-62 fw-semibold"
         >
           Subscribe Newsletter
         </h2>
         <p
           data-aos="zoom-in-down"
-          className=" fw-normal pb-md-40 pb-sm-4 pb-2 fs-16 mb-0 lh-24 ff-outfit col-lightwhite text-center mx-auto pt-md-3 pt-2"
+          className=" fw-normal pb-md-40 pb-sm-4 pb-2 fs-16 mb-0 lh-24 ff-outfit col-lightwhite text-center pt-md-3 pt-2"
         >
           Subscribe to our newsletter for the latest news, offers, and eco-tips.
         </p>

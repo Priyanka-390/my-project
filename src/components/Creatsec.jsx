@@ -44,17 +44,15 @@ const Creatsec = () => {
   return (
     <div id="brand" className="bg-white overflow-x-clip position-relative z-1">
       <div className="container">
-        <h2
-          data-aos="zoom-in"
-          className="col-black max-w-675 text-center mx-auto pb-lg-5 pb-md-4 pb-sm-3 pb-2 ff-outfit fw-semibold fs-52 lh-62 pt-md-44 pt-sm-4 pt-3"
-        >
-          Creating a Greener World Is Now As Easy As 1-2-3
+        <h2 className="col-black my-lg-5 my-sm-3 my-3 text-center ff-outfit fw-semibold fs-52 lh-62">
+          Creating a Greener World Is
+          <span className="d-md-block">Now As Easy As 1-2-3</span>
         </h2>
-        <div className="row align-items-center">
-          <div className="col-md-5 col-12" data-aos="fade-right">
+        <div className="row align-items-center pt-2 justify-content-around">
+          <div className="col-md-4 col-12" data-aos="fade-right">
             <img src={createimg} alt="create" className="w-xl-full" />
           </div>
-          <div className="col-md-7 col-12 pt-md-0 pt-3" data-aos="fade-left">
+          <div className="col-md-6 col-12  pt-4" data-aos="fade-left">
             {data}
           </div>
         </div>

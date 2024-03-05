@@ -17,8 +17,8 @@ const Footer = () => {
                 className="mb-3 cursor-pointer"
               />
               <p className="ff-outfit col-lightwhite fs-16 lh-24 fw-normal max-w-345  mb-0">
-                Cloopp revolutionizes recycling for everyone. Join, earn, and
-                support sustainability.
+                Cloopp revolutionizes recycling for everyone. <span className="d-md-block">Join, earn, and
+                support sustainability.</span> 
               </p>
             </div>
             <div className="col-lg-7">
