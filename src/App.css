@@ -438,7 +438,7 @@ button:not(:disabled) {
     --fs-md: 24px;
     --fs-lg: 29px;
     --fs-xl: 45px;
-    --fs-2xl: 55px;
+    --fs-2xl: 50px;
     --fs-3xl: 60px;
   }
   /* ==line-height== */
