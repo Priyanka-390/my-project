@@ -22,7 +22,7 @@ const Faqsec = () => {
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#flush-collapseOne"
-                aria-expanded="false"
+                aria-expanded="true"
                 aria-controls="flush-collapseOne"
               >
                 What products can I scan?
@@ -30,7 +30,7 @@ const Faqsec = () => {
             </h2>
             <div
               id="flush-collapseOne"
-              className="accordion-collapse collapse"
+              className="accordion-collapse collapse show"
               data-bs-parent="#accordionFlushExample"
             >
               <div className="accordion-body ff-outfit fs-16 fw-normal lh-24 max-w-758 col-opblack">

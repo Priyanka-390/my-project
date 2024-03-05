@@ -28,7 +28,7 @@ const Footer = () => {
                     <li className="mb-sm-3 mb-2">
                       <a
                         href="#about"
-                        className="col-lightwhite text-decoration-none ff-outfit fs-16 lh-17 fw-normal  footerhover"
+                        className="col-lightwhite nav_line position-relative text-decoration-none ff-outfit fs-16 lh-17 fw-normal  footerhover"
                       >
                         About Us
                       </a>
@@ -36,7 +36,7 @@ const Footer = () => {
                     <li className="mb-sm-3 mb-2">
                       <a
                         href="#how"
-                        className="col-lightwhite ff-outfit text-decoration-none fs-16 lh-17 fw-normal footerhover"
+                        className="col-lightwhite ff-outfit nav_line position-relative text-decoration-none fs-16 lh-17 fw-normal footerhover"
                       >
                         How It Works
                       </a>
@@ -44,7 +44,7 @@ const Footer = () => {
                     <li className="mb-sm-3 mb-2">
                       <a
                         href="#brand"
-                        className="col-lightwhite ff-outfit text-decoration-none fs-16 lh-17 fw-normal footerhover"
+                        className="col-lightwhite ff-outfit nav_line position-relative text-decoration-none fs-16 lh-17 fw-normal footerhover"
                       >
                         For Brands
                       </a>
@@ -52,7 +52,7 @@ const Footer = () => {
                     <li>
                       <a
                         href="#Faq"
-                        className="col-lightwhite ff-outfit text-decoration-none fs-16 lh-17 fw-normal footerhover"
+                        className="col-lightwhite ff-outfit nav_line position-relative text-decoration-none fs-16 lh-17 fw-normal footerhover"
                       >
                         FAQs
                       </a>
@@ -64,7 +64,7 @@ const Footer = () => {
                     <li className="mb-sm-3 mb-2">
                       <a
                         href="#"
-                        className="col-lightwhite ff-outfit text-decoration-none fs-16 lh-17 fw-normal footerhover"
+                        className="col-lightwhite ff-outfit nav_line position-relative text-decoration-none fs-16 lh-17 fw-normal footerhover"
                       >
                         Terms & Conditions
                       </a>
@@ -72,7 +72,7 @@ const Footer = () => {
                     <li>
                       <a
                         href="#"
-                        className="col-lightwhite ff-outfit text-decoration-none fs-16 lh-17 fw-normal footerhover"
+                        className="col-lightwhite ff-outfit nav_line position-relative text-decoration-none fs-16 lh-17 fw-normal footerhover"
                       >
                         Privacy Policy
                       </a>
