@@ -390,7 +390,7 @@ form {
 .pl-80 {
   padding-left: 80px !important;
 }
-.recycle .accordion-button:not(.collapsed) {
+.recycle .accordion-button:not(.collapsed){
   padding-bottom: 12px !important;
   background: transparent !important;
   box-shadow: none !important;
