@@ -85,7 +85,7 @@ const Footer = () => {
                       Follow Us{" "}
                     </p>
                     <div className="d-flex gap-10">
-                      <a
+                      <a 
                         href="https://www.instagram.com/"
                         target="_blank"
                         className="icons"

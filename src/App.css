@@ -33,6 +33,7 @@
   --bs-boxblack: #15231f;
   --bs-opblack: #3d3d3d !important;
   --bs-squarebg: #313131;
+  --bg-nav:#0576B3;
 }
 /* ===== font-sizes ===== */
 .fs-14 {
@@ -63,6 +64,9 @@
 .col-opblack {
   color: var(--bs-opblack) !important;
 }
+.bg-nav{
+  background: var(--bg-nav);
+}
 .bg-boxblack {
   background: var(--bs-boxblack);
 }
@@ -91,9 +95,6 @@
   color: var(--bs-yellow);
 }
 /* =====max-width===== */
-.max-w-616 {
-  max-width: 616px;
-}
 .max-w-448 {
   max-width: 448px;
 }
