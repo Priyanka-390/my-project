@@ -170,14 +170,14 @@ form {
 }
 .subscribebottomlayer {
   position: absolute;
-  bottom: 0;
+  bottom: -2px;
   left: 0;
   right: 0;
   width: 100%;
 }
 .recyclebottomlayer {
   position: absolute;
-  bottom: 0;
+  bottom: -2px;
   width: 100%;
   left: 0;
   right: 0;
@@ -185,10 +185,20 @@ form {
 .vectorimg {
   position: absolute;
   bottom: 37%;
-  left: 45%;
+  left: 46%;
 }
 .cursor-pointer {
   cursor: pointer;
+}
+
+.hoverbtn{
+  border: 1px solid transparent !important;
+  transition: all 300ms linear;
+}
+.hoverbtn:hover{
+  background-color: var(--bs-blue) !important;
+  color: white !important;
+  border: 1px solid white !important;
 }
 .herostar {
   position: absolute;
@@ -232,14 +242,14 @@ form {
   }
 }
 .animation {
-  animation: zoom 4s linear infinite;
+  animation: zoom 5s linear infinite;
 }
 @keyframes zoom {
   0% {
     transform: scale(1);
   }
   50% {
-    transform: scale(1.5);
+    transform: scale(1.3);
   }
   100% {
     transform: scale(1);
@@ -413,14 +423,13 @@ button:not(:disabled) {
 }
 @media (min-width: 576px) {
   :root {
-    /* =====font-sizes ===== */
     --fs-xs: 14px;
     --fs-sm: 16px;
     --fs-md: 20px;
     --fs-lg: 24px;
     --fs-xl: 40px;
     --fs-2xl: 45px;
-    --fs-3xl: 55px;
+    --fs-3xl: 50px;
   }
   .max-w-sm-180 {
     max-width: 180px;
@@ -432,13 +441,12 @@ button:not(:disabled) {
 }
 @media (min-width: 768px) {
   :root {
-    /* =====font-sizes ===== */
     --fs-xs: 14px;
     --fs-sm: 16px;
     --fs-md: 24px;
     --fs-lg: 29px;
     --fs-xl: 45px;
-    --fs-2xl: 50px;
+    --fs-2xl: 55px;
     --fs-3xl: 60px;
   }
   /* ==line-height== */
@@ -480,7 +488,6 @@ button:not(:disabled) {
     padding-bottom: 153px !important;
   }
 }
-
 @media (min-width: 992px) {
   :root {
     /* =====font-sizes ===== */
@@ -508,7 +515,6 @@ button:not(:disabled) {
 }
 @media (min-width: 1200px) {
   :root {
-    /* =====font-sizes ===== */
     --fs-xs: 14px;
     --fs-sm: 16px;
     --fs-md: 24px;

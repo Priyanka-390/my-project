@@ -10,11 +10,10 @@ const Subscribe = () => {
       id="about"
       className="bg-bluebg position-relative overflow-x-clip z-1 py-lg-253 py-md-153 py-sm-100 py-70 position-relative z-1"
     >
-      <div className="container">
+      <div className="container py-xxl-5">
         <h2
           data-aos="zoom-in-down"
-          className="text-center  mb-0 ff-outfit col-white fs-52 lh-62 fw-semibold"
-        >
+          className="text-center  mb-0 ff-outfit col-white fs-52 lh-62 fw-semibold" >
           Subscribe Newsletter
         </h2>
         <p
@@ -36,7 +35,7 @@ const Subscribe = () => {
             <input
               type="button"
               value="Join"
-              className="bg-white col-blue fs-16 ff-outfit lh-24 fw-semibold ms-2 border-none br-10 px-32 py-3"
+              className="bg-white col-blue fs-16 ff-outfit lh-24 hoverbtn  fw-semibold ms-2 border-none br-10 px-32 py-3"
             />
           </div>
         </form>
@@ -52,5 +51,4 @@ const Subscribe = () => {
     </div>
   );
 };
-
 export default Subscribe;
